@@ -9,11 +9,11 @@ import com.example.cleanarchitecturenotesapp.feature_note.domain.use_case.NoteUs
 import com.example.cleanarchitecturenotesapp.feature_note.domain.util.NoteOrder
 import com.example.cleanarchitecturenotesapp.feature_note.domain.util.OrderType
 import dagger.hilt.android.lifecycle.HiltViewModel
-import jakarta.inject.Inject
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 @HiltViewModel
 class NotesViewModel @Inject constructor(
